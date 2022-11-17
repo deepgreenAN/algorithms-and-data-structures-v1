@@ -1,0 +1,1192 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'algo_and_struct'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=algo_and_struct",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "algo_and_struct",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'algo_and_struct'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=algo_and_struct",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "algo_and_struct",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '10_5_heap'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=10_5_heap",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "10_5_heap",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '10_5_heap'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=10_5_heap",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "10_5_heap",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '11_3_union_find'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=11_3_union_find",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "11_3_union_find",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '11_3_union_find'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=11_3_union_find",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "11_3_union_find",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_1_insertion_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_1_insertion_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_1_insertion_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_1_insertion_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_1_insertion_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_1_insertion_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_2_merge_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_2_merge_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_2_merge_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_2_merge_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_2_merge_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_2_merge_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_3_quick_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_3_quick_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_3_quick_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_3_quick_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_3_quick_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_3_quick_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_4_heap_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_4_heap_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_4_heap_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_4_heap_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_4_heap_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_4_heap_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '12_5_bucket_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=12_5_bucket_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_5_bucket_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '12_5_bucket_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=12_5_bucket_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "12_5_bucket_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '13_1_graph_search_stack_que_ver_ambassador'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=13_1_graph_search_stack_que_ver_ambassador",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_ambassador",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '13_1_graph_search_stack_que_ver_ambassador'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=13_1_graph_search_stack_que_ver_ambassador",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_ambassador",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '13_1_graph_search_stack_que_ver_enum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=13_1_graph_search_stack_que_ver_enum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_enum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '13_1_graph_search_stack_que_ver_enum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=13_1_graph_search_stack_que_ver_enum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_enum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '13_1_graph_search_stack_que_ver_trait_object'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=13_1_graph_search_stack_que_ver_trait_object",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_trait_object",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '13_1_graph_search_stack_que_ver_trait_object'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=13_1_graph_search_stack_que_ver_trait_object",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "13_1_graph_search_stack_que_ver_trait_object",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '3_6_all_search_partial_sum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=3_6_all_search_partial_sum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "3_6_all_search_partial_sum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '3_6_all_search_partial_sum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=3_6_all_search_partial_sum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "3_6_all_search_partial_sum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '4_9_dp_recur_partial_sum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=4_9_dp_recur_partial_sum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "4_9_dp_recur_partial_sum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '4_9_dp_recur_partial_sum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=4_9_dp_recur_partial_sum",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "4_9_dp_recur_partial_sum",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '5_3_dp_relax_frog'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=5_3_dp_relax_frog",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_3_dp_relax_frog",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '5_3_dp_relax_frog'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=5_3_dp_relax_frog",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_3_dp_relax_frog",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '5_6_dp_recur_memo_frog'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=5_6_dp_recur_memo_frog",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_6_dp_recur_memo_frog",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '5_6_dp_recur_memo_frog'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=5_6_dp_recur_memo_frog",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_6_dp_recur_memo_frog",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '5_7_dp_knapsack'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=5_7_dp_knapsack",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_7_dp_knapsack",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '5_7_dp_knapsack'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=5_7_dp_knapsack",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_7_dp_knapsack",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '5_8_dp_calc_levenshtein'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=5_8_dp_calc_levenshtein",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_8_dp_calc_levenshtein",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '5_8_dp_calc_levenshtein'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=5_8_dp_calc_levenshtein",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "5_8_dp_calc_levenshtein",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '6_1_binary_search'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=6_1_binary_search",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_1_binary_search",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '6_1_binary_search'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=6_1_binary_search",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_1_binary_search",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '6_2_binary_search_lower_bound'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=6_2_binary_search_lower_bound",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_2_binary_search_lower_bound",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '6_2_binary_search_lower_bound'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=6_2_binary_search_lower_bound",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_2_binary_search_lower_bound",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '6_5_binary_search_sniper_king'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=6_5_binary_search_sniper_king",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_5_binary_search_sniper_king",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '6_5_binary_search_sniper_king'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=6_5_binary_search_sniper_king",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_5_binary_search_sniper_king",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '6_6_binary_search_median'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=6_6_binary_search_median",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_6_binary_search_median",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '6_6_binary_search_median'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=6_6_binary_search_median",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "6_6_binary_search_median",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'bellmanford'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=bellmanford",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "bellmanford",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'bellmanford'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=bellmanford",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "bellmanford",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'bfs_major_dist'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=bfs_major_dist",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "bfs_major_dist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'bfs_major_dist'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=bfs_major_dist",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "bfs_major_dist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'dijkstra_algorithm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=dijkstra_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "dijkstra_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'dijkstra_algorithm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=dijkstra_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "dijkstra_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'dijkstra_heap_algorithm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=dijkstra_heap_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "dijkstra_heap_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'dijkstra_heap_algorithm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=dijkstra_heap_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "dijkstra_heap_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'floydwarshall_algorithm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=floydwarshall_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "floydwarshall_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'floydwarshall_algorithm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=floydwarshall_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "floydwarshall_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ford_fulkerson_algorithm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ford_fulkerson_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "ford_fulkerson_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ford_fulkerson_algorithm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ford_fulkerson_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "ford_fulkerson_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ford_fulkerson_algorithm_v2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ford_fulkerson_algorithm_v2",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "ford_fulkerson_algorithm_v2",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ford_fulkerson_algorithm_v2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ford_fulkerson_algorithm_v2",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "ford_fulkerson_algorithm_v2",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'graph_search_disision_bipartite'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=graph_search_disision_bipartite",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_disision_bipartite",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'graph_search_disision_bipartite'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=graph_search_disision_bipartite",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_disision_bipartite",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'graph_search_recur_depth'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=graph_search_recur_depth",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_recur_depth",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'graph_search_recur_depth'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=graph_search_recur_depth",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_recur_depth",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'graph_search_topological_sort'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=graph_search_topological_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_topological_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'graph_search_topological_sort'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=graph_search_topological_sort",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "graph_search_topological_sort",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'kruskal_algorithm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=kruskal_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "kruskal_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'kruskal_algorithm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=kruskal_algorithm",
+                    "--package=algo_and_struct"
+                ],
+                "filter": {
+                    "name": "kruskal_algorithm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
