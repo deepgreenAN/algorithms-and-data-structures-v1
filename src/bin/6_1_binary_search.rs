@@ -1,23 +1,21 @@
 use std::cmp::Ordering::{Equal, Greater, Less};
 
 fn binary_search(key: i32, a: &Vec<i32>) -> Option<usize> {
-    let mut left: i32 = 0;
-    let mut right: i32 = a.len() as i32 - 1;
+    let mut left = 0_usize;
+    let mut right = a.len();
 
-    while right >= left {
-        //let mid: i32 = (left + (right - left) / 2).round();  // 区間の真ん中
-        let mid: i32 = left + (right - left) / 2; // 区間の真ん中(切り捨てられる)
-        let mid_index: usize = mid as usize;
+    while right > left {
+        let mid = left + (right - left) / 2; // 区間の真ん中(切り捨てられる)
 
-        match a[mid_index].cmp(&key) {
+        match a.get(mid)?.cmp(&key) {
             Equal => {
-                return Some(mid_index);
-            } // たまたま中心にあたったかright==leftになった場合
+                return Some(mid);
+            }
             Greater => {
-                right = mid - 1;
+                right = mid;
             }
             Less => {
-                left = mid + 1;
+                left = mid + 1; // どちらもmidだと無限ループになる
             }
         }
     }
